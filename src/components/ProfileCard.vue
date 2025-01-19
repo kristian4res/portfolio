@@ -7,19 +7,10 @@ defineProps<{
 <template>
   <div class="profile-card">
     <h1 class="green">{{ title }}</h1>
-    <h3>A DevSecOps software engineer, who's curious about all things tech and food.</h3>
-    <div class="flex p-4 justify-evenly">
-      <a href="https://www.linkedin.com/in/kristian4res/" target="_blank" rel="noopener"
-        >LinkedIn</a
-      >
-      <a href="https://www.github.com/kristian4res/" target="_blank" rel="noopener">GitHub</a>
-      <a
-        href="https://a-developers-journal.hashnode.dev/?source=top_nav_blog_home"
-        target="_blank"
-        rel="noopener"
-        >Blog</a
-      >
-    </div>
+    <h3 class="break-words">
+      A DevSecOps software engineer, who's curious about all things related to tech 👨‍💻, foods 🍕 and
+      pets 🐶.
+    </h3>
   </div>
 </template>
 

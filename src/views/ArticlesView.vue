@@ -3,7 +3,7 @@ import VueExample from '@/components/VueExample.vue'
 </script>
 
 <template>
-  <div class="about">
+  <div class="articles">
     <VueExample />
   </div>
 </template>
