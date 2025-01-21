@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import PostCard from '@/components/PostCard.vue'
-import { Divider } from 'primevue'
+import { Divider, Button } from 'primevue'
 </script>
 
 <template>
@@ -30,14 +30,9 @@ import { Divider } from 'primevue'
         <!-- TODO: Make scalable; allow custom banners and image alt -->
         <div class="flex gap-4 p-2 overflow-x-auto">
           <PostCard
-            postTitle="How to pass the GCP Associate Cloud Engineer certification exam in a month"
-            postContent="In December 2024, I studied and passed the GCP Associate Cloud Engineer certification exam. This is a step-by-step guide on how I did it."
-            buttonLink="https://a-developers-journal.hashnode.dev/how-to-pass-the-gcp-associate-cloud-engineer-certification-exam-in-a-month"
-          />
-          <PostCard
-            postTitle="How to pass the GCP Associate Cloud Engineer certification exam in a month"
-            postContent="In December 2024, I studied and passed the GCP Associate Cloud Engineer certification exam. This is a step-by-step guide on how I did it."
-            buttonLink="https://a-developers-journal.hashnode.dev/how-to-pass-the-gcp-associate-cloud-engineer-certification-exam-in-a-month"
+            postTitle="A big milestone to cap of 2024"
+            postContent="I passed the GCP Associate Cloud Engineer certification exam at the end of 2024, which was another big milestone next to graduating university."
+            buttonLink="https://www.linkedin.com/posts/kristian4res_associate-cloud-engineer-certification-was-activity-7280002842029961216-DqgX?utm_source=share&utm_medium=member_desktop"
           />
           <PostCard
             postTitle="How to pass the GCP Associate Cloud Engineer certification exam in a month"
@@ -49,21 +44,34 @@ import { Divider } from 'primevue'
       <section class="flex-col flex">
         <h1 class="font-bold text-2xl">Contact</h1>
         <Divider />
-        <p class="text-lg">
-          If you'd like to get in touch with me, feel free to reach out to me via my LinkedIn or my
-          blog. I'm always open to new challenges and opportunities!
-        </p>
-        <div class="flex p-4 justify-evenly">
-          <a href="https://www.linkedin.com/in/kristian4res/" target="_blank" rel="noopener"
-            >LinkedIn</a
-          >
-          <a href="https://www.github.com/kristian4res/" target="_blank" rel="noopener">GitHub</a>
-          <a
-            href="https://a-developers-journal.hashnode.dev/?source=top_nav_blog_home"
-            target="_blank"
-            rel="noopener"
-            >Blog</a
-          >
+        <div class="flex flex-col gap-4">
+          <p class="text-lg">
+            If you'd like to get in touch with me, feel free to reach out to me via my LinkedIn or
+            my blog. I'm always open to new challenges and opportunities!
+          </p>
+          <div class="flex justify-evenly gap-4 xl:justify-start">
+            <Button
+              as="a"
+              label="LinkedIn"
+              href="https://www.linkedin.com/in/kristian4res/"
+              target="_blank"
+              rel="noopener"
+            />
+            <Button
+              as="a"
+              label="GitHub"
+              href="https://www.github.com/kristian4res/"
+              target="_blank"
+              rel="noopener"
+            />
+            <Button
+              as="a"
+              label="Blog"
+              href="https://a-developers-journal.hashnode.dev/?source=top_nav_blog_home"
+              target="_blank"
+              rel="noopener"
+            />
+          </div>
         </div>
       </section>
     </main>
