@@ -9,8 +9,9 @@ defineProps<{
 </script>
 
 <template>
-  <Card class="w-[30rem] overflow-hidden flex-shrink-0">
+  <Card class="w-[30rem] overflow-hidden flex-shrink-0 flex flex-col justify-between">
     <template #header>
+      <!-- TODO: Use AI art or just unsplash? -->
       <img
         alt="primefaces usercard"
         src="https://primefaces.org/cdn/primevue/images/usercard.png"
