@@ -20,9 +20,6 @@ import ProfileCard from './components/ProfileCard.vue'
         <RouterLink to="/" class="inline-block px-4 py-2 border-l border-gray-300 first:border-0"
           >Home</RouterLink
         >
-        <RouterLink to="/articles" class="inline-block px-4 py-2 border-l border-gray-300"
-          >Articles</RouterLink
-        >
         <RouterLink to="/projects" class="inline-block px-4 py-2 border-l border-gray-300"
           >Projects</RouterLink
         >
