@@ -1,11 +1,18 @@
 <script setup lang="ts">
-import { Card, Button } from 'primevue'
+import { defineProps } from 'vue'
+import { Card } from 'primevue'
+import { Button } from 'primevue'
 
-defineProps<{
-  postTitle: string
-  postContent: string
-  buttonLink: string
-}>()
+defineProps({
+  postTitle: {
+    type: String,
+    required: true,
+  },
+  buttonLink: {
+    type: String,
+    required: true,
+  },
+})
 </script>
 
 <template>
@@ -20,7 +27,7 @@ defineProps<{
     <template #title>{{ postTitle }}</template>
     <template #content>
       <p class="m-0">
-        {{ postContent }}
+        <slot></slot>
       </p>
     </template>
     <template #footer>
