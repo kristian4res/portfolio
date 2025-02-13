@@ -4,10 +4,8 @@ import PageSection from '@/components/PageSection.vue'
 import { Button } from 'primevue'
 </script>
 
-<template class="flex flex-col h-screen justify-center items-center">
-  <main
-    class="flex flex-col gap-8 p-4 h-screen max-w-screen-sm overflow-y-auto lg:self-center lg:h-1/2"
-  >
+<template>
+  <main class="flex flex-col gap-8 px-4 h-screen max-w-screen-sm overflow-y-auto">
     <PageSection heading="About">
       Hi there! My name is <b>Kristian, a software engineer</b> currently based in the United
       Kingdom. I'm currently working full time as a <b>DevSecOps engineer</b> within a
@@ -39,7 +37,7 @@ import { Button } from 'primevue'
     <PageSection heading="Contact">
       If you'd like to get in touch with me, feel free to reach out to me via my LinkedIn or my
       blog. I'm always open to new challenges and opportunities!
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-4 mt-4">
         <div class="flex justify-evenly gap-4 xl:justify-start">
           <Button
             as="a"
@@ -70,4 +68,3 @@ import { Button } from 'primevue'
     </PageSection>
   </main>
 </template>
-
