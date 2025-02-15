@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProfileCard.vue > matches snapshot 1`] = `
+"<div class=".dark flex flex-col justify-center gap-6">
+  <div class="flex flex-col justify-center items-center gap-4">
+    <h1 class="w-full font-bold text-4xl text-center lg:text-left">Kristian Torres</h1>
+    <h3 class="w-full text-lg break-words text-center lg:text-left">A software engineer that strives to do his best! :)</h3>
+  </div>
+</div>"
+`;

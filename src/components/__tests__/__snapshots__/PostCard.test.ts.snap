@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PostCard.vue > matches snapshot 1`] = `
+"<div class="p-card p-component w-[30rem] overflow-hidden flex-shrink-0 flex flex-col justify-between" buttontext="Google it!" data-pc-name="card" pc1="" data-pc-section="root">
+  <div class="p-card-header" data-pc-section="header"><img class="w-full max-h-[18rem] object-cover" alt="A Japanese shiba inu dog" src="https://images.unsplash.com/photo-1453365607868-7deed8cc7d26?q=80&amp;w=3570&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+  <div class="p-card-body" data-pc-section="body">
+    <div class="p-card-caption" data-pc-section="caption">
+      <div class="p-card-title" data-pc-section="title">Hello, world! This is a post card</div>
+      <!---->
+    </div>
+    <div class="p-card-content" data-pc-section="content">
+      <p class="m-0 text-wrap">This is a test slot content</p>
+    </div>
+    <div class="p-card-footer" data-pc-section="footer">
+      <div class="flex gap-4 mt-1"><a class="p-button p-component w-full" aria-label="Find out more" data-pc-name="button" data-p-disabled="false" href="https://google.com" target="_blank" rel="noopener" pc2="" data-pc-section="root">
+          <!----><span class="p-button-label" data-pc-section="label">Find out more</span>
+          <!---->
+        </a></div>
+    </div>
+  </div>
+</div>"
+`;
