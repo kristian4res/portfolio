@@ -15,7 +15,9 @@ import ProfileCard from './components/ProfileCard.vue'
         height="125"
       />
       <div class="flex flex-col items-center lg:flex-row lg:items-start lg:flex-wrap">
-        <ProfileCard title="Kristian Torres" />
+        <ProfileCard title="Kristian Torres">
+          <p>A software engineer, who's curious about all things related to tech 👨‍💻.</p>
+        </ProfileCard>
         <nav class="w-full text-center mt-8 lg:text-left lg:ml-[-1rem] lg:mt-4">
           <RouterLink to="/" class="inline-block px-4 py-2 border-l border-gray-300 first:border-0"
             >Home</RouterLink
