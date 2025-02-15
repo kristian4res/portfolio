@@ -5,36 +5,12 @@ defineProps<{
 </script>
 
 <template>
-  <div class="profile-card">
-    <h1 class="green">{{ title }}</h1>
-    <h3 class="break-words">
-      A DevSecOps software engineer, who's curious about all things related to tech 👨‍💻, foods 🍕 and
-      pets 🐶.
-    </h3>
+  <div class=".dark flex flex-col justify-center gap-6">
+    <div class="flex flex-col justify-center items-center gap-4">
+      <h1 class="w-full font-bold text-4xl text-center lg:text-left">{{ title }}</h1>
+      <h3 class="w-full text-lg break-words text-center lg:text-left">
+        <slot></slot>
+      </h3>
+    </div>
   </div>
 </template>
-
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.profile-card > h1,
-.profile-card > h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .profile-card > h1,
-  .profile-card > h3 {
-    text-align: left;
-  }
-}
-</style>
