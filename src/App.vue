@@ -26,6 +26,10 @@ import ProfileCard from './components/ProfileCard.vue'
         </nav>
       </div>
     </header>
-    <RouterView />
+    <main
+      class="flex flex-col gap-8 px-4 my-2 mb-6 h-screen max-w-screen-sm overflow-y-auto sm:px-2"
+    >
+      <RouterView />
+    </main>
   </div>
 </template>
