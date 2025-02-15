@@ -11,11 +11,10 @@ import { Button } from 'primevue'
       Hi there! My name is <b>Kristian, a software engineer</b> currently based in the United
       Kingdom. I'm currently working full time as a <b>DevSecOps engineer</b> within a
       cross-functional team for the <b>Office for National Statistics (ONS)</b>, the recognised
-      national statistical institue of the UK.<br /><br />As a <b>lifelong learner</b>, I often
+      national statistical institue of the UK.<br /><br />As an <b>inquisitive person</b>, I often
       spend my free time learning about new tech through personal projects and online courses to
       further hone my skills and knowledge. Aside from tech, I'm also an avid <b>gamer</b> and enjoy
-      playing games in my free time, as well as being a <b>pet lover</b> (although I don't have a
-      pet currently 🥲).
+      playing games in my free time.
     </ContentParagraph>
   </PageSection>
   <PageSection heading="Featured">
