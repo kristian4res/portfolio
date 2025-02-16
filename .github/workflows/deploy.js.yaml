@@ -33,13 +33,13 @@ jobs:
         run: bun install
 
       - name: Verify image integrity before build
-        run: md5sum ./src/assets/*.jpg > before-build.md5
+        run: md5sum src/assets/*.jpeg > before-build.md5
 
       - name: Build
         run: bun run build-only
 
       - name: Verify image integrity after build
-        run: md5sum ./dist/assets/*.jpg > after-build.md5
+        run: md5sum ./dist/assets/*.jpeg > after-build.md5
 
       - name: Compare image checksums
         run: diff before-build.md5 after-build.md5
