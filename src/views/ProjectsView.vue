@@ -36,13 +36,31 @@ import PageSection from '@/components/PageSection.vue'
       <div class="flex flex-col w-full gap-4">
         <ContentParagraph>
           Created as part of a university module on large enterprise systems, I developed a
-          microservices module that handles and manages the delivery of parcels for a fictional shoe
-          company.
+          microservices module, parcel-delivery-module, that handles and manages the delivery of
+          parcels for a fictional shoe company.
         </ContentParagraph>
         <Button
           as="a"
           label="View code"
-          href="https://github.com/kristian4res/ucwd-solstice"
+          href="https://github.com/kristian4res/parcel-delivery-module"
+          target="_blank"
+          rel="noopener"
+          icon="pi pi-github"
+        />
+      </div>
+    </Panel>
+    <Panel header="Noteworthy" toggleable>
+      <div class="flex flex-col w-full gap-4">
+        <ContentParagraph>
+          One of the very first web development projects that I worked on, Noteworthy is a Kanban
+          board application for managing your projects and tasks. The application implements a few
+          project management principles, like Deep Work board by Cal Newport and the popular
+          Eisenhower Matrix.
+        </ContentParagraph>
+        <Button
+          as="a"
+          label="View code"
+          href="https://github.com/kristian4res/noteworthy-io"
           target="_blank"
           rel="noopener"
           icon="pi pi-github"
