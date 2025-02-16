@@ -1,0 +1,120 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProjectsView.vue > renders correctly 1`] = `
+"<section class="flex-col flex flex-wrap">
+  <h1 class="font-bold text-2xl mb-4">Projects</h1>
+  <div class="text-lg sm:text-wrap">
+    <p class="text-lg sm:text-wrap my-2"> Here are some of the projects that I've worked on in the past. Feel free to check them out and let me know what you think! </p>
+  </div>
+  <div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" style="justify-content: center;" role="separator" aria-orientation="horizontal" data-pc-name="divider" pc1="" data-pc-section="root">
+    <!---->
+  </div>
+</section>
+<div class="grid gap-4">
+  <div class="p-panel p-component p-panel-toggleable" data-pc-name="panel" pc2="" data-pc-section="root">
+    <div class="p-panel-header" data-pc-section="header"><span id="undefined_header" class="p-panel-title" data-pc-section="title">Solstice</span>
+      <div class="p-panel-header-actions" data-pc-section="headeractions"><button class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text p-panel-toggle-button" type="button" aria-label="Solstice" data-pc-name="pctogglebutton" data-p-disabled="false" data-p-severity="secondary" id="undefined_header" aria-controls="undefined_content" aria-expanded="true" data-pc-extend="button" pc3="" data-pc-section="root"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon p-button-icon" aria-hidden="true">
+            <path d="M13.2222 7.77778H0.777778C0.571498 7.77778 0.373667 7.69584 0.227806 7.54998C0.0819442 7.40412 0 7.20629 0 7.00001C0 6.79373 0.0819442 6.5959 0.227806 6.45003C0.373667 6.30417 0.571498 6.22223 0.777778 6.22223H13.2222C13.4285 6.22223 13.6263 6.30417 13.7722 6.45003C13.9181 6.5959 14 6.79373 14 7.00001C14 7.20629 13.9181 7.40412 13.7722 7.54998C13.6263 7.69584 13.4285 7.77778 13.2222 7.77778Z" fill="currentColor"></path>
+          </svg><span class="p-button-label" data-pc-section="label">&nbsp;</span>
+          <!---->
+        </button></div>
+    </div>
+    <transition-stub name="p-toggleable-content" appear="false" persisted="false" css="true">
+      <div id="undefined_content" class="p-panel-content-container" role="region" aria-labelledby="undefined_header" data-pc-section="contentcontainer">
+        <div class="p-panel-content" data-pc-section="content">
+          <div class="flex flex-col w-full gap-4">
+            <p class="text-lg sm:text-wrap my-2"> Solstice is a mock online travel booking platform, built using React (via CRA), React-Router, TailwindCSS and Firebase. Solstice was built as part of a course module, User Centred Web Development, which covered the importance of user experience and accessibility when designing a product. The development of this application followed the principles of Design Sprints, a methodology used to quickly validate ideas and solve challenges. </p><a class="p-button p-component" aria-label="View code" data-pc-name="button" data-p-disabled="false" href="https://github.com/kristian4res/ucwd-solstice" target="_blank" rel="noopener" pc5="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-github" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">View code</span>
+              <!---->
+            </a>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </transition-stub>
+  </div>
+  <div class="p-panel p-component p-panel-toggleable" data-pc-name="panel" pc6="" data-pc-section="root">
+    <div class="p-panel-header" data-pc-section="header"><span id="undefined_header" class="p-panel-title" data-pc-section="title">Parcel Delivery Module</span>
+      <div class="p-panel-header-actions" data-pc-section="headeractions"><button class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text p-panel-toggle-button" type="button" aria-label="Parcel Delivery Module" data-pc-name="pctogglebutton" data-p-disabled="false" data-p-severity="secondary" id="undefined_header" aria-controls="undefined_content" aria-expanded="true" data-pc-extend="button" pc7="" data-pc-section="root"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon p-button-icon" aria-hidden="true">
+            <path d="M13.2222 7.77778H0.777778C0.571498 7.77778 0.373667 7.69584 0.227806 7.54998C0.0819442 7.40412 0 7.20629 0 7.00001C0 6.79373 0.0819442 6.5959 0.227806 6.45003C0.373667 6.30417 0.571498 6.22223 0.777778 6.22223H13.2222C13.4285 6.22223 13.6263 6.30417 13.7722 6.45003C13.9181 6.5959 14 6.79373 14 7.00001C14 7.20629 13.9181 7.40412 13.7722 7.54998C13.6263 7.69584 13.4285 7.77778 13.2222 7.77778Z" fill="currentColor"></path>
+          </svg><span class="p-button-label" data-pc-section="label">&nbsp;</span>
+          <!---->
+        </button></div>
+    </div>
+    <transition-stub name="p-toggleable-content" appear="false" persisted="false" css="true">
+      <div id="undefined_content" class="p-panel-content-container" role="region" aria-labelledby="undefined_header" data-pc-section="contentcontainer">
+        <div class="p-panel-content" data-pc-section="content">
+          <div class="flex flex-col w-full gap-4">
+            <p class="text-lg sm:text-wrap my-2"> Created as part of a university module on large enterprise systems, I developed a microservices module, parcel-delivery-module, that handles and manages the delivery of parcels for a fictional shoe company. </p><a class="p-button p-component" aria-label="View code" data-pc-name="button" data-p-disabled="false" href="https://github.com/kristian4res/parcel-delivery-module" target="_blank" rel="noopener" pc9="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-github" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">View code</span>
+              <!---->
+            </a>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </transition-stub>
+  </div>
+  <div class="p-panel p-component p-panel-toggleable" data-pc-name="panel" pc10="" data-pc-section="root">
+    <div class="p-panel-header" data-pc-section="header"><span id="undefined_header" class="p-panel-title" data-pc-section="title">Noteworthy</span>
+      <div class="p-panel-header-actions" data-pc-section="headeractions"><button class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text p-panel-toggle-button" type="button" aria-label="Noteworthy" data-pc-name="pctogglebutton" data-p-disabled="false" data-p-severity="secondary" id="undefined_header" aria-controls="undefined_content" aria-expanded="true" data-pc-extend="button" pc11="" data-pc-section="root"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon p-button-icon" aria-hidden="true">
+            <path d="M13.2222 7.77778H0.777778C0.571498 7.77778 0.373667 7.69584 0.227806 7.54998C0.0819442 7.40412 0 7.20629 0 7.00001C0 6.79373 0.0819442 6.5959 0.227806 6.45003C0.373667 6.30417 0.571498 6.22223 0.777778 6.22223H13.2222C13.4285 6.22223 13.6263 6.30417 13.7722 6.45003C13.9181 6.5959 14 6.79373 14 7.00001C14 7.20629 13.9181 7.40412 13.7722 7.54998C13.6263 7.69584 13.4285 7.77778 13.2222 7.77778Z" fill="currentColor"></path>
+          </svg><span class="p-button-label" data-pc-section="label">&nbsp;</span>
+          <!---->
+        </button></div>
+    </div>
+    <transition-stub name="p-toggleable-content" appear="false" persisted="false" css="true">
+      <div id="undefined_content" class="p-panel-content-container" role="region" aria-labelledby="undefined_header" data-pc-section="contentcontainer">
+        <div class="p-panel-content" data-pc-section="content">
+          <div class="flex flex-col w-full gap-4">
+            <p class="text-lg sm:text-wrap my-2"> One of the very first web development projects that I worked on, Noteworthy is a Kanban board application for managing your projects and tasks. The application implements a few project management principles, like Deep Work board by Cal Newport and the popular Eisenhower Matrix. </p><a class="p-button p-component" aria-label="View code" data-pc-name="button" data-p-disabled="false" href="https://github.com/kristian4res/noteworthy-io" target="_blank" rel="noopener" pc13="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-github" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">View code</span>
+              <!---->
+            </a>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </transition-stub>
+  </div>
+  <div class="p-panel p-component p-panel-toggleable" data-pc-name="panel" pc14="" data-pc-section="root">
+    <div class="p-panel-header" data-pc-section="header"><span id="undefined_header" class="p-panel-title" data-pc-section="title">Kore</span>
+      <div class="p-panel-header-actions" data-pc-section="headeractions"><button class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text p-panel-toggle-button" type="button" aria-label="Kore" data-pc-name="pctogglebutton" data-p-disabled="false" data-p-severity="secondary" id="undefined_header" aria-controls="undefined_content" aria-expanded="true" data-pc-extend="button" pc15="" data-pc-section="root"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon p-button-icon" aria-hidden="true">
+            <path d="M13.2222 7.77778H0.777778C0.571498 7.77778 0.373667 7.69584 0.227806 7.54998C0.0819442 7.40412 0 7.20629 0 7.00001C0 6.79373 0.0819442 6.5959 0.227806 6.45003C0.373667 6.30417 0.571498 6.22223 0.777778 6.22223H13.2222C13.4285 6.22223 13.6263 6.30417 13.7722 6.45003C13.9181 6.5959 14 6.79373 14 7.00001C14 7.20629 13.9181 7.40412 13.7722 7.54998C13.6263 7.69584 13.4285 7.77778 13.2222 7.77778Z" fill="currentColor"></path>
+          </svg><span class="p-button-label" data-pc-section="label">&nbsp;</span>
+          <!---->
+        </button></div>
+    </div>
+    <transition-stub name="p-toggleable-content" appear="false" persisted="false" css="true">
+      <div id="undefined_content" class="p-panel-content-container" role="region" aria-labelledby="undefined_header" data-pc-section="contentcontainer">
+        <div class="p-panel-content" data-pc-section="content">
+          <div class="flex flex-col w-full gap-4">
+            <p class="text-lg sm:text-wrap my-2"> Kore is a digital visual diary. It is currently in development...🚧 </p><a class="p-button p-component" aria-label="Coming soon" data-pc-name="button" data-p-disabled="true" disabled="" href="#" rel="noopener" pc17="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-github" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">Coming soon</span>
+              <!---->
+            </a>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </transition-stub>
+  </div>
+  <div class="p-panel p-component p-panel-toggleable" data-pc-name="panel" pc18="" data-pc-section="root">
+    <div class="p-panel-header" data-pc-section="header"><span id="undefined_header" class="p-panel-title" data-pc-section="title">Kapsule</span>
+      <div class="p-panel-header-actions" data-pc-section="headeractions"><button class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text p-panel-toggle-button" type="button" aria-label="Kapsule" data-pc-name="pctogglebutton" data-p-disabled="false" data-p-severity="secondary" id="undefined_header" aria-controls="undefined_content" aria-expanded="true" data-pc-extend="button" pc19="" data-pc-section="root"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-icon p-button-icon" aria-hidden="true">
+            <path d="M13.2222 7.77778H0.777778C0.571498 7.77778 0.373667 7.69584 0.227806 7.54998C0.0819442 7.40412 0 7.20629 0 7.00001C0 6.79373 0.0819442 6.5959 0.227806 6.45003C0.373667 6.30417 0.571498 6.22223 0.777778 6.22223H13.2222C13.4285 6.22223 13.6263 6.30417 13.7722 6.45003C13.9181 6.5959 14 6.79373 14 7.00001C14 7.20629 13.9181 7.40412 13.7722 7.54998C13.6263 7.69584 13.4285 7.77778 13.2222 7.77778Z" fill="currentColor"></path>
+          </svg><span class="p-button-label" data-pc-section="label">&nbsp;</span>
+          <!---->
+        </button></div>
+    </div>
+    <transition-stub name="p-toggleable-content" appear="false" persisted="false" css="true">
+      <div id="undefined_content" class="p-panel-content-container" role="region" aria-labelledby="undefined_header" data-pc-section="contentcontainer">
+        <div class="p-panel-content" data-pc-section="content">
+          <div class="flex flex-col w-full gap-4">
+            <p class="text-lg sm:text-wrap my-2"> Kapsule is a physical manifestation of the "capsule wardrope" but as an application that is easy to use and access. It is currently in development...🚧 </p><a class="p-button p-component" aria-label="Coming soon" data-pc-name="button" data-p-disabled="true" disabled="" href="#" rel="noopener" pc21="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-github" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">Coming soon</span>
+              <!---->
+            </a>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </transition-stub>
+  </div>
+</div>"
+`;

@@ -1,0 +1,78 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomeView.vue > renders correctly 1`] = `
+"<section class="flex-col flex flex-wrap">
+  <h1 class="font-bold text-2xl mb-4">About</h1>
+  <div class="text-lg sm:text-wrap">
+    <p class="text-lg sm:text-wrap my-2"> Hi there! My name is <b>Kristian, a software engineer</b> currently based in the United Kingdom. I'm currently working full time as a <b>DevSecOps engineer</b> within a cross-functional team for the <b>Office for National Statistics (ONS)</b>, the recognised national statistical institue of the UK.<br><br>As an <b>inquisitive person</b>, I often spend my free time learning about new tech through personal projects and online courses to further hone my skills and knowledge. Aside from tech, I'm also an avid <b>gamer</b> and enjoy playing games in my free time. </p>
+  </div>
+  <div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" style="justify-content: center;" role="separator" aria-orientation="horizontal" data-pc-name="divider" pc1="" data-pc-section="root">
+    <!---->
+  </div>
+</section>
+<section class="flex-col flex flex-wrap">
+  <h1 class="font-bold text-2xl mb-4">Featured</h1>
+  <div class="text-lg sm:text-wrap">
+    <p class="text-lg sm:text-wrap my-2"> Recent highlights of my journey as a software engineer. </p>
+    <div class="flex gap-4 p-2 my-2 overflow-x-auto">
+      <div class="p-card p-component w-[30rem] overflow-hidden flex-shrink-0 flex flex-col justify-between w-full lg:w-3/4" data-pc-name="card" pc2="" data-pc-section="root">
+        <div class="p-card-header" data-pc-section="header"><img class="w-full max-h-[18rem] object-cover" alt="Bullseye darts on a dart board" src="https://images.unsplash.com/photo-1629721671030-a83edbb11211?q=80&amp;w=3376&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+        <div class="p-card-body" data-pc-section="body">
+          <div class="p-card-caption" data-pc-section="caption">
+            <div class="p-card-title" data-pc-section="title">A big milestone to cap of 2024</div>
+            <!---->
+          </div>
+          <div class="p-card-content" data-pc-section="content">
+            <p class="m-0 text-wrap"> I passed the GCP Associate Cloud Engineer certification exam at the end of 2024, which was another big milestone next to graduating university. </p>
+          </div>
+          <div class="p-card-footer" data-pc-section="footer">
+            <div class="flex gap-4 mt-1"><a class="p-button p-component w-full" aria-label="Find out more" data-pc-name="button" data-p-disabled="false" href="https://www.linkedin.com/posts/kristian4res_associate-cloud-engineer-certification-was-activity-7280002842029961216-DqgX?utm_source=share&amp;utm_medium=member_desktop" target="_blank" rel="noopener" pc3="" data-pc-section="root">
+                <!----><span class="p-button-label" data-pc-section="label">Find out more</span>
+                <!---->
+              </a></div>
+          </div>
+        </div>
+      </div>
+      <div class="p-card p-component w-[30rem] overflow-hidden flex-shrink-0 flex flex-col justify-between w-full lg:w-3/4" data-pc-name="card" pc4="" data-pc-section="root">
+        <div class="p-card-header" data-pc-section="header"><img class="w-full max-h-[18rem] object-cover" alt="A table with a laptop, notebook, and a cup of coffee" src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&amp;w=3474&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+        <div class="p-card-body" data-pc-section="body">
+          <div class="p-card-caption" data-pc-section="caption">
+            <div class="p-card-title" data-pc-section="title">How to pass the GCP Associate Cloud Engineer certification exam in a month</div>
+            <!---->
+          </div>
+          <div class="p-card-content" data-pc-section="content">
+            <p class="m-0 text-wrap"> In December 2024, I studied and passed the GCP Associate Cloud Engineer certification exam. This is a step-by-step guide on how I did it. </p>
+          </div>
+          <div class="p-card-footer" data-pc-section="footer">
+            <div class="flex gap-4 mt-1"><a class="p-button p-component w-full" aria-label="Find out more" data-pc-name="button" data-p-disabled="false" href="https://a-developers-journal.hashnode.dev/how-to-pass-the-gcp-associate-cloud-engineer-certification-exam-in-a-month" target="_blank" rel="noopener" pc5="" data-pc-section="root">
+                <!----><span class="p-button-label" data-pc-section="label">Find out more</span>
+                <!---->
+              </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" style="justify-content: center;" role="separator" aria-orientation="horizontal" data-pc-name="divider" pc6="" data-pc-section="root">
+    <!---->
+  </div>
+</section>
+<section class="flex-col flex flex-wrap">
+  <h1 class="font-bold text-2xl mb-4">Contact</h1>
+  <div class="text-lg sm:text-wrap">
+    <p class="text-lg sm:text-wrap my-2"> If you'd like to get in touch with me, feel free to reach out to me via my LinkedIn or my blog. I'm always open to new challenges and opportunities! </p>
+    <div class="flex flex-col gap-4 mt-4">
+      <div class="flex justify-evenly gap-4 xl:justify-start"><a class="p-button p-component" aria-label="LinkedIn" data-pc-name="button" data-p-disabled="false" href="https://www.linkedin.com/in/kristian4res/" target="_blank" rel="noopener" pc7="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-linkedin" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">LinkedIn</span>
+          <!---->
+        </a><a class="p-button p-component" aria-label="GitHub" data-pc-name="button" data-p-disabled="false" href="https://www.github.com/kristian4res/" target="_blank" rel="noopener" pc8="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-github" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">GitHub</span>
+          <!---->
+        </a><a class="p-button p-component" aria-label="Blog" data-pc-name="button" data-p-disabled="false" href="https://a-developers-journal.hashnode.dev/?source=top_nav_blog_home" target="_blank" rel="noopener" pc9="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-book" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">Blog</span>
+          <!---->
+        </a></div>
+    </div>
+  </div>
+  <div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" style="justify-content: center;" role="separator" aria-orientation="horizontal" data-pc-name="divider" pc10="" data-pc-section="root">
+    <!---->
+  </div>
+</section>"
+`;
