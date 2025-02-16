@@ -8,7 +8,7 @@ import ProfileCard from './ProfileCard.vue'
     <img
       alt="Profile picture of Kristian Torres"
       class="block rounded-full object-cover mb-8 lg:mb-0 lg:mr-4"
-      src="@/assets/profile-pic.jpeg"
+      src="@/assets/profile-pic.png"
       width="200"
       height="200"
     />
