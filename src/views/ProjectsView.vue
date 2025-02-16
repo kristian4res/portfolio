@@ -52,12 +52,7 @@ import PageSection from '@/components/PageSection.vue'
     <Panel header="Kore" toggleable>
       <div class="flex flex-col w-full gap-4">
         <ContentParagraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
+          Kore is a digital visual diary. It is currently in development...🚧
         </ContentParagraph>
         <Button as="a" disabled label="Coming soon" href="#" rel="noopener" icon="pi pi-github" />
       </div>
@@ -65,12 +60,8 @@ import PageSection from '@/components/PageSection.vue'
     <Panel header="Kapsule" toggleable>
       <div class="flex flex-col w-full gap-4">
         <ContentParagraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
+          Kapsule is a physical manifestation of the "capsule wardrope" but as an application that
+          is easy to use and access. It is currently in development...🚧
         </ContentParagraph>
         <Button as="a" disabled label="Coming soon" href="#" rel="noopener" icon="pi pi-github" />
       </div>
