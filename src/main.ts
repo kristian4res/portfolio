@@ -12,9 +12,6 @@ const app = createApp(App)
 app.use(PrimeVue, {
   theme: {
     preset: Material,
-    options: {
-      darkModeSelector: 'dark-mode-primevue',
-    },
   },
 })
 app.use(createPinia())
