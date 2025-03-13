@@ -2,10 +2,6 @@
 
 My portfolio website using new technologies I've not used before :)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
 ## Project Setup
 
 ```sh
