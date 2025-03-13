@@ -15,9 +15,9 @@ import ProfileCard from './ProfileCard.vue'
     <div class="flex flex-col items-center lg:flex-row lg:items-start lg:flex-wrap">
       <ProfileCard title="Kristian Torres">
         <p>
-          A self-motivated DevOps software engineer 👨‍💻 with experience in developing full-stack
-          applications and maintaining a multicloud distributed system in agile multidisciplinary
-          teams.
+          A self-motivated software engineer 👨‍💻 with experience in developing full-stack
+          applications, maintaining multicloud distributed systems and applying DevSecOps
+          principles, within agile multidisciplinary teams.
         </p>
       </ProfileCard>
       <nav class="w-full text-center mt-8 lg:text-left lg:ml-[-1rem] lg:mt-4">
