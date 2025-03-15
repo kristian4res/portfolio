@@ -13,8 +13,8 @@ import { Button } from 'primevue'
       cross-functional team for the <b>Office for National Statistics (ONS)</b>, the recognised
       national statistical institue of the UK.<br /><br />As an <b>inquisitive person</b>, I often
       spend my free time learning about new tech through personal projects and online courses to
-      further hone my skills and knowledge. Aside from tech, I'm also an avid <b>gamer</b> and enjoy
-      playing games in my free time.
+      further hone my skills and knowledge. Aside from tech, I'm an avid fan of martial arts,
+      running and games.
     </ContentParagraph>
   </PageSection>
   <PageSection heading="Featured">
