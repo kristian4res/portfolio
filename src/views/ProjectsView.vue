@@ -12,7 +12,7 @@ import PageSection from '@/components/PageSection.vue'
     </ContentParagraph>
   </PageSection>
   <div class="grid gap-4">
-    <Panel header="Solstice" toggleable>
+    <Panel header="Solstice ☀️" toggleable>
       <div class="flex flex-col w-full gap-4">
         <ContentParagraph>
           Solstice is a mock online travel booking platform, built using React (via CRA),
@@ -32,7 +32,50 @@ import PageSection from '@/components/PageSection.vue'
         />
       </div>
     </Panel>
-    <Panel header="Parcel Delivery Module" toggleable>
+    <Panel header="Climbing Movement Analysis App 🧗" toggleable>
+      <div class="flex flex-col w-full gap-4">
+        <ContentParagraph>
+          A React Native mobile application utilising Tensorflow's pose detection models to detect
+          and analyse climber movement.
+        </ContentParagraph>
+        <Button
+          as="a"
+          disabled
+          label="View code"
+          href="https://github.com/kristian4res/climbing-movement-analysis-app"
+          rel="noopener"
+          icon="pi pi-github"
+        />
+      </div>
+    </Panel>
+    <Panel header="Tickethund 🐶" toggleable>
+      <div class="flex flex-col w-full gap-4">
+        <ContentParagraph>
+          An online ticketing system based on a microservices architecture. It introduced me to key
+          system design concepts and industry-standard software patterns that are utilised in
+          microservices. To be revealed...🚧
+        </ContentParagraph>
+        <Button as="a" disabled label="Coming soon" href="#" rel="noopener" icon="pi pi-github" />
+      </div>
+    </Panel>
+    <Panel header="Regalia 👑" toggleable>
+      <div class="flex flex-col w-full gap-4">
+        <ContentParagraph>
+          This is a mock clothing e-commerce application, it is being developed using React (and
+          Scss) for the user interface, Redux for state management, Firebase for the backend
+          infrastructure and the Stripe API for handling mock payments.
+        </ContentParagraph>
+        <Button
+          as="a"
+          disabled
+          label="View code"
+          href="https://github.com/kristian4res/regalia"
+          rel="noopener"
+          icon="pi pi-github"
+        />
+      </div>
+    </Panel>
+    <Panel header="Parcel Delivery Module 📦" toggleable>
       <div class="flex flex-col w-full gap-4">
         <ContentParagraph>
           Created as part of a university module on large enterprise systems, I developed a
@@ -49,7 +92,7 @@ import PageSection from '@/components/PageSection.vue'
         />
       </div>
     </Panel>
-    <Panel header="Noteworthy" toggleable>
+    <Panel header="Noteworthy 📕" toggleable>
       <div class="flex flex-col w-full gap-4">
         <ContentParagraph>
           One of the very first web development projects that I worked on, Noteworthy is a Kanban
@@ -67,7 +110,7 @@ import PageSection from '@/components/PageSection.vue'
         />
       </div>
     </Panel>
-    <Panel header="Kore" toggleable>
+    <Panel header="Kore 📷" toggleable>
       <div class="flex flex-col w-full gap-4">
         <ContentParagraph>
           Kore is a digital visual diary. It is currently in development...🚧
@@ -75,7 +118,7 @@ import PageSection from '@/components/PageSection.vue'
         <Button as="a" disabled label="Coming soon" href="#" rel="noopener" icon="pi pi-github" />
       </div>
     </Panel>
-    <Panel header="Kapsule" toggleable>
+    <Panel header="Kapsule 🧢" toggleable>
       <div class="flex flex-col w-full gap-4">
         <ContentParagraph>
           Kapsule is a physical manifestation of the "capsule wardrope" but as an application that
