@@ -1,7 +1,6 @@
 # portfolio
 
-A portfolio website
-Trying to use technologies I've not used before :)
+A portfolio website (experimenting with technologies I've not used before)
 
 ## Project Setup
 
