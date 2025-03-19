@@ -4,7 +4,7 @@ exports[`HomeView.vue > renders correctly 1`] = `
 "<section class="flex-col flex flex-wrap">
   <h1 class="font-bold text-2xl mb-4">About</h1>
   <div class="text-lg sm:text-wrap">
-    <p class="text-lg sm:text-wrap my-2"> Hi there! My name is <b>Kristian, a software engineer</b> currently based in the United Kingdom. I'm currently working full time as a <b>DevSecOps engineer</b> within a cross-functional team for the <b>Office for National Statistics (ONS)</b>, the recognised national statistical institue of the UK.<br><br>As an <b>inquisitive person</b>, I often spend my free time learning about new tech through personal projects and online courses to further hone my skills and knowledge. Aside from tech, I'm an avid fan of martial arts, running and games. </p>
+    <p class="text-lg sm:text-wrap my-2"> Hi there! My name is <b>Kristian, a software engineer</b> currently based in the United Kingdom. I'm currently working full time as a <b>Software Engineer</b> within a cross-functional team for the <b>Office for National Statistics (ONS)</b>, the recognised national statistical institue of the UK.<br><br>As an <b>inquisitive person</b>, I often spend my free time learning and applying new technologies (via personal projects and courses) to solve various problems; always seeking ways to improve upon existing problem solutions. Aside from tech, I'm an avid fan of video games, running, and martial arts. </p>
   </div>
   <div class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left" style="justify-content: center;" role="separator" aria-orientation="horizontal" data-pc-name="divider" pc1="" data-pc-section="root">
     <!---->
