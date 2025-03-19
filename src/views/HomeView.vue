@@ -9,12 +9,12 @@ import { Button } from 'primevue'
   <PageSection heading="About">
     <ContentParagraph>
       Hi there! My name is <b>Kristian, a software engineer</b> currently based in the United
-      Kingdom. I'm currently working full time as a <b>DevSecOps engineer</b> within a
+      Kingdom. I'm currently working full time as a <b>Software Engineer</b> within a
       cross-functional team for the <b>Office for National Statistics (ONS)</b>, the recognised
       national statistical institue of the UK.<br /><br />As an <b>inquisitive person</b>, I often
-      spend my free time learning about new tech through personal projects and online courses to
-      further hone my skills and knowledge. Aside from tech, I'm an avid fan of martial arts,
-      running and games.
+      spend my free time learning and applying new technologies (via personal projects and courses)
+      to solve various problems; always seeking ways to improve upon existing problem solutions.
+      Aside from tech, I'm an avid fan of video games, running, and martial arts.
     </ContentParagraph>
   </PageSection>
   <PageSection heading="Featured">
