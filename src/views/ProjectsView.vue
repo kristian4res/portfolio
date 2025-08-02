@@ -51,11 +51,18 @@ import PageSection from '@/components/PageSection.vue'
     <Panel header="Tickethund 🐶" toggleable>
       <div class="flex flex-col w-full gap-4">
         <ContentParagraph>
-          An online ticketing system based on a microservices architecture. It introduced me to key
-          system design concepts and industry-standard software patterns that are utilised in
-          microservices. To be revealed...🚧
+          A modern, scalable ticket marketplace based on a microservices architecture. It introduced
+          me to key system design concepts and industry-standard software patterns that are utilised
+          in microservices.
         </ContentParagraph>
-        <Button as="a" disabled label="Coming soon" href="#" rel="noopener" icon="pi pi-github" />
+        <Button
+          as="a"
+          disabled
+          label="View code"
+          href="https://github.com/kristian4res/tickethund-project"
+          rel="noopener"
+          icon="pi pi-github"
+        />
       </div>
     </Panel>
     <Panel header="Regalia 👑" toggleable>

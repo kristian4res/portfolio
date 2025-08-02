@@ -65,7 +65,7 @@ exports[`ProjectsView.vue > renders correctly 1`] = `
       <div id="undefined_content" class="p-panel-content-container" role="region" aria-labelledby="undefined_header" data-pc-section="contentcontainer">
         <div class="p-panel-content" data-pc-section="content">
           <div class="flex flex-col w-full gap-4">
-            <p class="text-lg sm:text-wrap my-2"> An online ticketing system based on a microservices architecture. It introduced me to key system design concepts and industry-standard software patterns that are utilised in microservices. To be revealed...🚧 </p><a class="p-button p-component" aria-label="Coming soon" data-pc-name="button" data-p-disabled="true" disabled="" href="#" rel="noopener" pc13="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-github" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">Coming soon</span>
+            <p class="text-lg sm:text-wrap my-2"> A modern, scalable ticket marketplace based on a microservices architecture. It introduced me to key system design concepts and industry-standard software patterns that are utilised in microservices. </p><a class="p-button p-component" aria-label="View code" data-pc-name="button" data-p-disabled="true" disabled="" href="https://github.com/kristian4res/tickethund-project" rel="noopener" pc13="" data-pc-section="root"><span class="p-button-icon p-button-icon-left pi pi-github" data-pc-section="icon"></span><span class="p-button-label" data-pc-section="label">View code</span>
               <!---->
             </a>
           </div>
