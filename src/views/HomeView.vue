@@ -8,7 +8,7 @@ import { Button } from 'primevue'
 <template>
   <PageSection heading="About">
     <ContentParagraph>
-      Hi there! My name is <b>Kristian</b>, a self-motivated software engineer with experience in developing full-stack applications, <br /> 
+      Hi there! My name is <b>Kristian</b>, a self-motivated software engineer with experience in developing full-stack applications,
       maintaining multicloud distributed systems and applying DevSecOps principles, within agile multidisciplinary teams. <br /><br />
       As an <b>inquisitive person</b>, I often spend my free time learning and applying new technologies (via personal projects and courses)
       to solve various problems; always seeking ways to improve upon existing problem solutions.
