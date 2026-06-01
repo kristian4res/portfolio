@@ -11,9 +11,9 @@ defineProps({
 </script>
 
 <template>
-  <section class="flex-col flex flex-wrap">
-    <h1 class="font-bold text-2xl mb-4">{{ heading }}</h1>
-    <div class="text-lg sm:text-wrap">
+  <section class="flex-col flex flex-wrap w-full">
+    <h1 class="font-bold text-2xl mb-4 w-full">{{ heading }}</h1>
+    <div class="text-lg sm:text-wrap w-full">
       <slot></slot>
     </div>
     <Divider />
