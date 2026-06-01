@@ -5,6 +5,12 @@ import ProfileCard from '../ProfileCard.vue'
 describe('ProfileCard.vue', () => {
   it('matches snapshot', () => {
     const wrapper = mount(ProfileCard, {
+      global: {
+        stubs: {
+          Card: { template: '<div><slot /></div>' },
+          Button: { template: '<button><slot /></button>' },
+        },
+      },
       props: {
         title: 'Kristian Torres',
       },
