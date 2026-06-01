@@ -5,6 +5,11 @@ import PageSection from '../PageSection.vue'
 describe('PageSection.vue', () => {
   it('matches snapshot', () => {
     const wrapper = mount(PageSection, {
+      global: {
+        stubs: {
+          Divider: { template: '<hr />' },
+        },
+      },
       props: {
         heading: 'Hello, world!',
       },

@@ -5,6 +5,12 @@ import PostCard from '../PostCard.vue'
 describe('PostCard.vue', () => {
   it('matches snapshot', () => {
     const wrapper = mount(PostCard, {
+      global: {
+        stubs: {
+          Card: { template: '<div><slot /></div>' },
+          Button: { template: '<button><slot /></button>' },
+        },
+      },
       props: {
         postTitle: 'Hello, world! This is a post card',
         buttonLink: 'https://google.com',

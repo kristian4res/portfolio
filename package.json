@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "bun run type-check && bun run build-only",
     "preview": "vite preview",
-    "test:unit": "echo 'Tests are temporarily broken'",
+    "test:unit": "vitest --no-watch",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
