@@ -101,20 +101,22 @@ const carouselItems = [
         :circular="true"
         :showNavigators="true"
         :showIndicators="true"
-        class="w-full overflow-hidden"
+        class="w-full"
         container-class="w-full"
       >
         <template #item="slotProps">
-          <PostCard
-            :key="slotProps.data.id"
-            class="w-full"
-            :coverImage="slotProps.data.coverImage"
-            :coverImageAlt="slotProps.data.coverImageAlt"
-            :postTitle="slotProps.data.title"
-            :buttonLink="slotProps.data.buttonLink"
-          >
-            {{ slotProps.data.content }}
-          </PostCard>
+          <div class="w-full min-w-0 px-2 sm:px-4">
+            <PostCard
+              :key="slotProps.data.id"
+              class="w-full"
+              :coverImage="slotProps.data.coverImage"
+              :coverImageAlt="slotProps.data.coverImageAlt"
+              :postTitle="slotProps.data.title"
+              :buttonLink="slotProps.data.buttonLink"
+            >
+              {{ slotProps.data.content }}
+            </PostCard>
+          </div>
         </template>
       </Carousel>
     </PageSection>
@@ -124,7 +126,7 @@ const carouselItems = [
         blog. I'm always open to new challenges and opportunities!
       </ContentParagraph>
       <div class="flex flex-col gap-4 mt-4">
-        <div class="flex justify-evenly gap-4 xl:justify-start">
+        <div class="flex flex-col sm:flex-row justify-evenly gap-2 sm:gap-4">
           <Button
             as="a"
             label="LinkedIn"
@@ -132,6 +134,7 @@ const carouselItems = [
             target="_blank"
             rel="noopener"
             icon="pi pi-linkedin"
+            class="w-full sm:w-auto"
           />
           <Button
             as="a"
@@ -140,6 +143,7 @@ const carouselItems = [
             target="_blank"
             rel="noopener"
             icon="pi pi-github"
+            class="w-full sm:w-auto"
           />
           <Button
             as="a"
@@ -148,6 +152,7 @@ const carouselItems = [
             target="_blank"
             rel="noopener"
             icon="pi pi-book"
+            class="w-full sm:w-auto"
           />
         </div>
       </div>

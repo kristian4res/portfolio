@@ -25,9 +25,9 @@ defineProps({
 </script>
 
 <template>
-  <Card class="w-[30rem] overflow-hidden flex-shrink-0 flex flex-col justify-between">
+  <Card class="w-full overflow-hidden flex flex-col justify-between">
     <template #header>
-      <img class="w-full max-h-[18rem] object-cover" :alt="coverImageAlt" :src="coverImage" />
+      <img class="w-full max-h-48 object-cover" :alt="coverImageAlt" :src="coverImage" />
     </template>
     <template #title>{{ postTitle }}</template>
     <template #content>
