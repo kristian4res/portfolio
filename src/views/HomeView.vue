@@ -7,6 +7,16 @@ import { Button, Carousel } from 'primevue'
 const carouselItems = [
   {
     id: 1,
+    title: 'Solstice ☀️',
+    coverImage:
+      'https://images.unsplash.com/photo-1590671754682-f4decfae9659?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    coverImageAlt: 'Travel booking platform interface',
+    content:
+      'A mock travel booking platform using React, React-Router, TailwindCSS and Firebase. Developed as part of a user-centred development university course, although not perfect, the design is largely based on fundamental human-computer interaction and UI/UX principles and UI/UX, and was facilitated using the Design Sprint methodology.',
+    buttonLink: 'https://github.com/kristian4res/ucwd-solstice',
+  },
+  {
+    id: 2,
     title: 'Tickethund 🐶',
     coverImage:
       'https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -14,16 +24,6 @@ const carouselItems = [
     content:
       'Scalable ticket marketplace built on microservices architecture. A course and project I worked on in my spare time, which introduced me to key system design concepts and industry-standard patterns.',
     buttonLink: 'https://github.com/kristian4res/tickethund-project',
-  },
-  {
-    id: 2,
-    title: 'Solstice ☀️',
-    coverImage:
-      'https://images.unsplash.com/photo-1590671754682-f4decfae9659?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    coverImageAlt: 'Travel booking platform interface',
-    content:
-      'A mock travel booking platform that I built in university using with React, React-Router, TailwindCSS and Firebase. It&#39;s not perfect, but it is designed with user experience and (some) accessibility in mind using Design Sprint methodology.',
-    buttonLink: 'https://github.com/kristian4res/ucwd-solstice',
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ const carouselItems = [
       'https://images.unsplash.com/photo-1564769662533-4f00a87b4056?q=80&w=1244&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     coverImageAlt: 'Rock climbing',
     content:
-      "React Native mobile app using TensorFlow's pose detection models to analyze climbing movements.",
+      "React Native mobile app using TensorFlow's pose detection models to analyse climbing movements. This is an artefact I develop for my university dissertation on helping climbers improve their performance through computer vision assisted movement analysis.",
     buttonLink: 'https://github.com/kristian4res/climbing-movement-analysis-app',
   },
   {

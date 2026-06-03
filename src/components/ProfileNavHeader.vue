@@ -1,16 +1,17 @@
 <script setup lang="ts">
 import ProfileCard from './ProfileCard.vue'
+import profilePic from '@/assets/profile-pic.jpg'
 </script>
 
 <template>
   <header class="flex flex-col justify-center items-center max-w-screen-sm mt-12 mb-2 md:flex-row">
-    <!-- <img
+    <img
       alt="Profile picture of Kristian Torres"
       class="block rounded-full object-cover mb-8 lg:mb-0 lg:mr-4"
-      src="@/assets/profile-pic.jpg"
+      :src="profilePic"
       width="200"
       height="200"
-    /> -->
+    />
     <div class="flex flex-col items-center lg:flex-row lg:items-start lg:flex-wrap">
       <ProfileCard title="Kristian Torres">
         <p>
