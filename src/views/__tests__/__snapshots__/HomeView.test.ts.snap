@@ -4,12 +4,12 @@ exports[`HomeView.vue > renders correctly 1`] = `
 "<div class="w-full overflow-x-hidden">
   <div heading="Featured">
     <div>Some projects I've worked on throughout my journey</div>
-    <div numvisible="1" numscroll="1" circular="true" shownavigators="true" showindicators="true" class="w-full overflow-hidden" container-class="w-full" value="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"></div>
+    <div numvisible="1" numscroll="1" circular="true" shownavigators="true" showindicators="true" class="w-full" container-class="w-full" value="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"></div>
   </div>
   <div heading="Contact">
     <div> If you'd like to get in touch with me, feel free to reach out to me via my LinkedIn or my blog. I'm always open to new challenges and opportunities! </div>
     <div class="flex flex-col gap-4 mt-4">
-      <div class="flex justify-evenly gap-4 xl:justify-start"><button as="a" label="LinkedIn" href="https://www.linkedin.com/in/kristian4res/" target="_blank" rel="noopener" icon="pi pi-linkedin"></button><button as="a" label="GitHub" href="https://www.github.com/kristian4res/" target="_blank" rel="noopener" icon="pi pi-github"></button><button as="a" label="Blog" href="https://a-developers-journal.hashnode.dev/?source=top_nav_blog_home" target="_blank" rel="noopener" icon="pi pi-book"></button></div>
+      <div class="flex flex-col sm:flex-row justify-evenly gap-2 sm:gap-4"><button as="a" label="LinkedIn" href="https://www.linkedin.com/in/kristian4res/" target="_blank" rel="noopener" icon="pi pi-linkedin" class="w-full sm:w-auto"></button><button as="a" label="GitHub" href="https://www.github.com/kristian4res/" target="_blank" rel="noopener" icon="pi pi-github" class="w-full sm:w-auto"></button><button as="a" label="Blog" href="https://a-developers-journal.hashnode.dev/?source=top_nav_blog_home" target="_blank" rel="noopener" icon="pi pi-book" class="w-full sm:w-auto"></button></div>
     </div>
   </div>
 </div>"
